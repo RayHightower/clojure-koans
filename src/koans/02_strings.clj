@@ -7,7 +7,7 @@
   (= "hello" "hello")
 
   "But double quotes are just magic on top of something deeper"
-  (= __ (str 'world))
+  (= "world" (str 'world))
 
   "You can do more than create strings, you can put them together"
   (= "Cool right?" (str __ __))
