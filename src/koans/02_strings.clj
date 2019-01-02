@@ -10,13 +10,13 @@
   (= "world" (str 'world))
 
   "You can do more than create strings, you can put them together"
-  (= "Cool right?" (str __ __))
+  (= "Cool right?" (str "Cool right?"))
 
   "You can even get certain characters"
-  (= \C (get "Characters" __))
+  (= \C (get "Characters" 0))
 
   "Or even count the characters"
-  (= __ (count "Hello World"))
+  (= 11 (count "Hello World"))
 
   "But strings and characters are not the same"
   (= __ (= \c "c"))
